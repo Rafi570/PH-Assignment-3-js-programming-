@@ -1,0 +1,16 @@
+
+/** Problem -03 ( Medicine Planner ) */
+var lastDay = 11 ;
+//write your code here
+
+
+for (var day=1; day<=lastDay; day++){
+    if (day %3==0){
+
+        // 3 - medicine
+        console.log(day.toString()+" "+"-"+" "+"medicine")
+    }
+    else{
+        console.log(day.toString()+" "+"-"+" "+"rest")
+    }
+}
